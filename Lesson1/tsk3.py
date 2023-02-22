@@ -1,3 +1,3 @@
-n = int(input("Введите число: "))
-result = n + n * 11 + n * 111
+n = input("Введите число: ")
+result = int(n) + int(n + n) + int(n * 3)
 print("n+nn+nnn = ", result)

@@ -1,3 +1,3 @@
-number = (input("введите трехзначное число"))
-summ_digits = int(number[0])+int(number[1])+int(number[2])
+number = int(input("введите трехзначное число"))
+summ_digits = number % 10 + number // 10 % 10 + number // 100
 print("сумма цифр: ", summ_digits)
